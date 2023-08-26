@@ -109,6 +109,14 @@ print(df[df.population > 10][['country', 'square']]) #                  country 
 
 
 
+# Filter the DataFrame using the so-called. boolean arrays:
+print(df[df.population > 10][['country', 'square']]) #                  country    square
+                                                     # Country Code                      
+                                                     # KZ            Kazakhstan   2724902
+                                                     # RU                Russia  17125191
+                                                     # UA               Ukraine    603628
+
+
 
 # Incidentally, columns can be accessed using attribute or Python dictionary notation, i.e. df.population and df['population'] are the same thing.
 # You can reset indexes like this:
