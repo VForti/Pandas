@@ -163,6 +163,15 @@ print(df) #  country_code     country  population    square
           
           
           
+
+
+df = df.rename(columns={'Country Code': 'country_code'})
+print(df) #  country_code     country  population    square
+          # 0           KZ  Kazakhstan       17.04   2724902
+          # 1           RU      Russia      143.50  17125191
+          # 2           BY     Belarus        9.50    207600
+          # 3           UA     Ukraine       45.50    603628
+                   
           
           
           
